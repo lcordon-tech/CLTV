@@ -1,0 +1,44 @@
+
+VENV
+
+& c:\Users\lcord\Python\.venv\Scripts\Activate.ps1 
+
+GUATEMALA
+
+    # --- 2. CONFIGURACIÓN DE CREDENCIALES DB ---
+    # Sustituye con tus datos reales de acceso
+    USER = "lcordon"
+    PASSWORD = "9cwt4qkvqE1NEJ9m"
+    HOST = "127.0.0.1:3336" # ej: "localhost" o una IP
+    DB = "db_pacifiko"
+
+ssh -N -L 3336:gtprod-db-8-cluster.cluster-ro-ccqvp0tsx96v.us-east-2.rds.amazonaws.com:3306 lcordon@3.22.220.106
+
+python "C:/Users/lcord/Python/CLV/LTV/LTV 5.5.1 (GT)/Run.py"
+
+COSTA RICA
+
+    # --- 2. CONFIGURACIÓN DE CREDENCIALES DB ---
+    # Sustituye con tus datos reales de acceso
+    USER = "lcordon"
+    PASSWORD = "9cwt4qkvqE1NEJ9m"
+    HOST = "127.0.0.1:3337" # ej: "localhost" o una IP
+    DB = "db_pacifiko"
+
+ssh -N -L 3337:crprod-db-8-cluster.cluster-ro-ccqvp0tsx96v.us-east-2.rds.amazonaws.com:3306 lcordon@3.22.220.106
+
+- Hooola ¿cómo te va?
+
+Ahi, un poco dubitativo.
+
+- Oh ¿Por qué?
+
+Pues no sé muy bien hacia donde dirigir mi futuro.
+
+- ¿Por qué lo dices? ¿qué quieres para tu futuro?
+
+Ese es el problema, no lo sé, sólo he agarrado en automático yme he dejado llevar, supongo que espero estabilidad y reconocimiento.
+
+- Eso no está mal, de hecho es lo normal, pero también tienes que distinguir entre las metas y la avaricia ¿Buscas reconocimiento o admiración?
+
+Supongo que admiración y eso no está tan bien.

@@ -1,0 +1,66 @@
+HolaDataRepository!!!
+
+
+
+Hola! mira, necesito que analizas la siguiente carpeta, HolaDataRepository, está hecho en poo con python, lo que quiero es que únicamente veas que entra en cada clase, que calcula y que sale,
+no me entregues tanto texto, sólo estudialo. 
+
+Ok, te pasaré ahora los menus y el main principal, no son parte de esta carpeta peor son necesarias para qué entiendas como se llaman entre sí.
+
+
+
+Ok, mira, a otra ia le pase lo mismo que a ti, pero tú tarea sera ser el aqruitecto, tu diseñaras el proceso de los cambios/agregaciones que te pediré ¿ok?
+Deja en claro qué es lo que se quiere, que no sean ambiguos los objetivos y que se "autodebuggee" verificando que todo se cumple y que no se haya volado
+nada innecesario del código original ¿ok? serás el master de los prompts.
+
+Ok, mira, esto está hecho para un negocio de e-commerce en Guatemala, ahora quiero hacer lo mismo pero con Costa Rica ¿cuál es la diferencia? Que en Costa Rica sí hay que tomar en cuenta los tipos de cambio,
+Voy a agregar un excel a la carpeta de data_xlsx que tendrá el nombre "TIPO_DE_CAMBIO_CR" con una hoja llamada "CR" y en la cual estarán los tipos de cambio de cada cohorte (de colones a dólares). 
+Los cálculos de estos tipos de cambio deben ser correctos y cambian según el tipo de cohorte.
+Ahora bien, unos aspectos a tomar en cuenta: 
+- A diferencia de Guatemala, el negocio en Costa Rica comienza desde el primer cohorte de 2022 y llega como hasta el primero de 2026, se supone esto ya debería estar blindado pero hay que revisar.
+- El resto de xlsx para CR se llaman igual que los de Guatemala pero con CR en vez de GT (catalogLTVCR, SOISCR, SUPUESTOSCR) ¿crees que sería mejor si englobo los xlsx en uno por cada tipo y solo le cambio el nombre a las hojas?
+(tipo: 1PGT, 1PCR, SOIS (GT - CR)) Tal vez hasta se podria crear algo como "TIPO_DE_CAMBIO.xlsx" y dejar dos hojas (GT - CR)
+- Estoy tratando de crear otro programa, pero me gustaría englobarle en uno sólo y que, antes de mostrar el menú principal, le pregunte al usuario si desea el negocio de Guatemala o Costa Rica ¿es posible?
+- Si lo anterior es posible, que de una vez quede la arquitectura correcta por si se extiende a futuros países (Cosas como que solo se tengan que agregar nuevos xlsx, etc. sin preocuparse en calculos y así).
+- Las credenciales del DB cambian, el host, user, pasword, ssh command, etc.
+Piensa bien en el diseño y luego genera el prompt preciso para que la ia progamadora entienda bien qué tiene que hacer sin necesidad de corregirla, muchas gracias.
+
+
+
+Ok, perfecto, te pasaré ahora otra carpeta, es la de Model, igual que en la anterior, te pediré que la analizes bien, está hecho en poo con python, lo que quiero es que únicamente veas que entra en cada clase, 
+que calcula y que sale, no me entregues tanto texto, sólo estudialo. 
+
+Muy bien, mira, igual que con la carpeta anterior, ahora debemos modificarla para que quede adaptada al ambiente que hemos ido programando con Costa Rica.
+Recuerda unos aspectos a tomar en cuenta:
+- A diferencia de Guatemala, el negocio en Costa Rica comienza desde el primer cohorte de 2022 y llega como hasta el primero de 2026, se supone esto ya debería estar blindado pero hay que revisar.
+- El xlsx para Costa Rica de CAC se llama CAC_CR con una hoja llamada CR ¿podemos hacer la arquitectura de unificar los CAC en un solo xlsx y con dos hojas (GT - CR)?
+- Estoy tratando de crear otro programa, pero me gustaría englobarle en uno sólo y que, antes de mostrar el menú principal, le pregunte al usuario si desea el negocio de Guatemala o Costa Rica ¿es posible?
+- Si lo anterior es posible, que de una vez quede la arquitectura correcta por si se extiende a futuros países (Cosas como que solo se tengan que agregar nuevos xlsx, etc. sin preocuparse en calculos y así).
+Piensa bien en el diseño y luego genera el prompt preciso para que la ia progamadora entienda bien qué tiene que hacer sin necesidad de corregirla, muchas gracias.
+
+
+
+Ok, perfecto, te pasaré ahora otra carpeta, es la de Category, igual que en la anterior, te pediré que la analizes bien, está hecho en poo con python, lo que quiero es que únicamente veas que entra en cada clase, 
+que calcula y que sale, no me entregues tanto texto, sólo estudialo. 
+
+Muy bien, mira, igual que con la carpeta anterior, ahora debemos modificarla para que quede adaptada al ambiente que hemos ido programando con Costa Rica.
+Recuerda unos aspectos a tomar en cuenta:
+- A diferencia de Guatemala, el negocio en Costa Rica comienza desde el primer cohorte de 2022 y llega como hasta el primero de 2026, se supone esto ya debería estar blindado pero hay que revisar.
+- Estoy tratando de crear otro programa, pero me gustaría englobarle en uno sólo y que, antes de mostrar el menú principal, le pregunte al usuario si desea el negocio de Guatemala o Costa Rica ¿es posible?
+- Si lo anterior es posible, que de una vez quede la arquitectura correcta por si se extiende a futuros países (Cosas como que solo se tengan que agregar nuevos xlsx, etc. sin preocuparse en calculos y así).
+Piensa bien en el diseño y luego genera el prompt preciso para que la ia progamadora entienda bien qué tiene que hacer sin necesidad de corregirla, muchas gracias.
+
+
+
+Ok, perfecto, te pasaré ahora otra carpeta, es la de Run, igual que en la anterior, te pediré que la analizes bien, está hecho en poo con python, lo que quiero es que únicamente veas que entra en cada clase, 
+que calcula y que sale, no me entregues tanto texto, sólo estudialo. 
+
+Muy bien, mira, igual que con la carpeta anterior, ahora debemos modificarla para que quede adaptada al ambiente que hemos ido programando con Costa Rica.
+Recuerda unos aspectos a tomar en cuenta:
+- A diferencia de Guatemala, el negocio en Costa Rica comienza desde el primer cohorte de 2022 y llega como hasta el primero de 2026, se supone esto ya debería estar blindado pero hay que revisar.
+- Estoy tratando de crear otro programa, pero me gustaría englobarle en uno sólo y que, antes de mostrar el menú principal, le pregunte al usuario si desea el negocio de Guatemala o Costa Rica ¿es posible?
+- Si lo anterior es posible, que de una vez quede la arquitectura correcta por si se extiende a futuros países (Cosas como que solo se tengan que agregar nuevos xlsx, etc. sin preocuparse en calculos y así).
+Piensa bien en el diseño y luego genera el prompt preciso para que la ia progamadora entienda bien qué tiene que hacer sin necesidad de corregirla, muchas gracias.
+
+
+

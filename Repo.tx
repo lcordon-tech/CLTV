@@ -1,0 +1,38 @@
+VENV
+
+& c:\Users\lcord\Python\.venv\Scripts\Activate.ps1 
+
+GUATEMALA
+
+    # --- 2. CONFIGURACIÓN DE CREDENCIALES DB ---
+    # Sustituye con tus datos reales de acceso
+    USER = "lcordon"
+    PASSWORD = "9cwt4qkvqE1NEJ9m"
+    HOST = "127.0.0.1:3336" # ej: "localhost" o una IP
+    DB = "db_pacifiko"
+
+            return DBCredentials(
+            user="lcordon",
+            password="9cwt4qkvqE1NEJ9m",
+            host="127.0.0.1:3336",
+            database="db_pacifiko"
+        )
+
+ssh -N -L 3336:gtprod-db-8-cluster.cluster-ro-ccqvp0tsx96v.us-east-2.rds.amazonaws.com:3306 lcordon@3.22.220.106
+source /c/Users/lcord/Python/.venv/Scripts/activate && (while true; do echo -ne "\r⏱️  Tiempo transcurrido: $SECONDS segundos"; sleep 1; done &) && python "C:/Users/lcord/Python/CLV/LTVSUB/LTV 8.4.2 (GT)/Run.py" && kill $!
+
+source /c/Users/lcord/Python/.venv/Scripts/activate && (while true; do echo -ne "\r⏱️  Tiempo transcurrido: $SECONDS segundos"; sleep 1; done &) && python "C:/Users/lcord/Python/CLV/LTVSUB/LTV 8.4.3 (GT)/Run/Config/Menu/main.py" && kill $!
+
+CLV/LTVCAT/LTV 7.3.1 (GT)/Run.py
+
+COSTA RICA
+
+    # --- 2. CONFIGURACIÓN DE CREDENCIALES DB ---
+    # Sustituye con tus datos reales de acceso
+    USER = "lcordon"
+    PASSWORD = "9cwt4qkvqE1NEJ9m"
+    HOST = "127.0.0.1:3337" # ej: "localhost" o una IP
+    DB = "db_pacifiko"
+
+ssh -N -L 3337:crprod-db-8-cluster.cluster-ro-ccqvp0tsx96v.us-east-2.rds.amazonaws.com:3306 lcordon@3.22.220.106
+source /c/Users/lcord/Python/.venv/Scripts/activate && (while true; do echo -ne "\r⏱️  Tiempo transcurrido: $SECONDS segundos"; sleep 1; done &) && python "C:/Users/lcord/Python/CLV/LTVSUB/LTV 8.4.2 (GT)/Run.py" && kill $!
